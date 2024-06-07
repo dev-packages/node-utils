@@ -1,0 +1,17 @@
+{
+  "name": "@dev-packages/node-utils",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/dev-packages/node-utils.git",
+  "author": "dev-packages",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn prebuild && tsc",
+    "prebuild": "shx rm -rf ./dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "shx": "^0.3.4",
+    "typescript": "^5.4.5"
+  }
+}
